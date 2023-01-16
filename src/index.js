@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import MyWidget from './App';
-
+import Button from './Button/Button';
 const title = 'My Minimal React Webpack Babel Setup';
 
 ReactDOM.render(
@@ -12,5 +12,5 @@ ReactDOM.render(
 
 // module.hot.accept();
 
-export {MyWidget}
+export {MyWidget,Button}
 
